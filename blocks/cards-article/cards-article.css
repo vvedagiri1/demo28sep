@@ -1,0 +1,69 @@
+.cards-article > ul {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards-article .cards-article-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-article .cards-article-card-image {
+  line-height: 0;
+}
+
+.cards-article .cards-article-card-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.cards-article .cards-article-card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.cards-article .cards-article-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.cards-article .cards-article-card-meta p {
+  margin: 0;
+}
+
+.cards-article .cards-article-card-tag {
+  display: inline-block;
+  padding: 2px 8px;
+}
+
+.cards-article .cards-article-card-body :is(h1, h2, h3, h4, h5, h6) {
+  margin: 8px 0 0;
+}
+
+.cards-article .cards-article-card-linked :is(h1, h2, h3, h4, h5, h6) a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+@media (width >= 600px) {
+  .cards-article > ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 900px) {
+  .cards-article > ul {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
