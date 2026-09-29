@@ -1,0 +1,31 @@
+.columns-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.columns-gallery .columns-gallery-item {
+  line-height: 0;
+}
+
+.columns-gallery .columns-gallery-item p {
+  margin: 0;
+}
+
+.columns-gallery .columns-gallery-item picture {
+  display: block;
+}
+
+.columns-gallery .columns-gallery-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+@media (width >= 900px) {
+  .columns-gallery {
+    grid-template-columns: repeat(var(--columns-gallery-cols, 4), minmax(0, 1fr));
+    gap: 16px;
+  }
+}

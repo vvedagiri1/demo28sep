@@ -1,0 +1,37 @@
+{
+  "id": "hero-banner",
+  "name": "hero-banner",
+  "type": "hero",
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-09-28T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "discoveredDuring": "site-migration per-page path",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "imagePattern": "background",
+    "purpose": "cta-banner",
+    "structure": "bg image + overlay + h2 + subheading + CTA",
+    "hasBgImage": true
+  },
+  "contentPattern": {
+    "structure": "row 1 = [background image]; row 2 = [h2, p, link]",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "usage": {
+    "pagesUsing": [
+      { "url": "https://www.wknd-trendsetters.site/", "screenshot": "migration-work/screenshot.png" }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-28T00:00:00.000Z"
+  },
+  "options": [],
+  "memberVariantIds": ["hero-banner"]
+}

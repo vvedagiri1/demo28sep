@@ -1,0 +1,37 @@
+{
+  "id": "columns-feature",
+  "name": "columns-feature",
+  "type": "columns",
+  "variantName": "columns-feature",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-09-28T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "discoveredDuring": "site-migration per-page path",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "imagePattern": "large",
+    "purpose": "featured-story",
+    "structure": "image + breadcrumb + h2 + byline + meta",
+    "hasGrid": true
+  },
+  "contentPattern": {
+    "structure": "row 1 = [cell 1: image] [cell 2: breadcrumb links paragraph, h2, byline paragraph, date/read-time paragraph]",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "usage": {
+    "pagesUsing": [
+      { "url": "https://www.wknd-trendsetters.site/", "screenshot": "migration-work/screenshot.png" }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-28T00:00:00.000Z"
+  },
+  "options": [],
+  "memberVariantIds": ["columns-feature"]
+}

@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://www.wknd-trendsetters.site/"
+      ],
+      "representativeUrl": "https://www.wknd-trendsetters.site/",
+      "description": "Home page: intro with image collage, featured story, photo gallery, testimonials, latest articles, FAQ and closing CTA banner",
+      "urlPattern": "/",
+      "blocks": [
+        {
+          "name": "columns-hero",
+          "instances": [
+            "main > header.section.secondary-section > .container > .grid-layout.grid-gap-xxl"
+          ]
+        },
+        {
+          "name": "columns-feature",
+          "instances": [
+            "main > section.section > .container > .grid-layout.tablet-1-column.grid-gap-lg"
+          ]
+        },
+        {
+          "name": "columns-gallery",
+          "instances": [
+            "main > section.secondary-section .grid-layout.desktop-4-column.grid-gap-sm"
+          ]
+        },
+        {
+          "name": "tabs-testimonial",
+          "instances": [
+            "main .tabs-wrapper"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            "main > section.secondary-section > .container > .grid-layout.desktop-4-column.grid-gap-md"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "main .faq-list"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            "main > section.inverse-section .utility-position-relative.utility-radius-card"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "intro",
+          "selector": [
+            "main > header.section.secondary-section"
+          ],
+          "style": "grey",
+          "blocks": [
+            "columns-hero"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "featured-story",
+          "selector": [
+            "main > section.section:nth-of-type(1)"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-feature"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "gallery",
+          "selector": [
+            "main > section.section.secondary-section:nth-of-type(2)"
+          ],
+          "style": "grey",
+          "blocks": [
+            "columns-gallery"
+          ],
+          "defaultContent": [
+            ".container > .utility-text-align-center.utility-margin-bottom-8rem"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "testimonials",
+          "selector": [
+            "main > section.section:nth-of-type(3)"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-testimonial"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "latest-articles",
+          "selector": [
+            "main > section.section.secondary-section:nth-of-type(4)"
+          ],
+          "style": "grey",
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            ".container > .utility-text-align-center"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "faq",
+          "selector": [
+            "main > section.section:nth-of-type(5)"
+          ],
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            ".grid-layout.grid-gap-xxl > div:first-child"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "closing-cta",
+          "selector": [
+            "main > section.section.inverse-section"
+          ],
+          "style": "dark",
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

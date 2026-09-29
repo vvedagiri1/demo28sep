@@ -1,0 +1,37 @@
+{
+  "id": "columns-gallery",
+  "name": "columns-gallery",
+  "type": "columns",
+  "variantName": "columns-gallery",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-09-28T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "discoveredDuring": "site-migration per-page path",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "imagePattern": "multiple",
+    "purpose": "image-gallery",
+    "structure": "8 images in a square 4-column grid",
+    "hasGrid": true
+  },
+  "contentPattern": {
+    "structure": "2 rows x 4 cells, each cell one image",
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "usage": {
+    "pagesUsing": [
+      { "url": "https://www.wknd-trendsetters.site/", "screenshot": "migration-work/screenshot.png" }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-28T00:00:00.000Z"
+  },
+  "options": [],
+  "memberVariantIds": ["columns-gallery"]
+}
